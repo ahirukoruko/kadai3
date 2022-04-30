@@ -126,6 +126,7 @@ printf("(8)");
 ```
 
 ##　makefile
+
 .PHONY : clean
 
 kadai3.out : kadai3.c
