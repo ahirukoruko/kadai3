@@ -1,6 +1,6 @@
 # 問3
 
-##ソースコード
+## ソースコード
 ```C
 #include <stdio.h>
 
@@ -125,7 +125,7 @@ printf("(8)");
 }
 ```
 
-##makefile
+## makefile
 ```
 .PHONY : clean
 
@@ -138,5 +138,5 @@ do :
 clean :
     rm kadai3.out
 ```
-##出力
+## 出力
 ![](/images/3.png)
