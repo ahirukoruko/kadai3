@@ -1,7 +1,3 @@
-# 問3
-
-## ソースコード
-```C
 #include <stdio.h>
 
 int main()
@@ -42,7 +38,7 @@ printf("(3)");
      }
       printf("\n");
       
-// 以下わかんなかったですごめんなさい...脳筋でやりました。
+// 以下わかんなかったですごめんなさい...
 
 printf("(4)");
     {
@@ -123,21 +119,4 @@ printf("(8)");
          printf("\n");
      
 }
-```
 
-## makefile
-```
-# makefile
-.PHONY : clean
-
-kadai3.out : kadai3.c
-    gcc -o kadai3.out kadai3.c
-    
-do :
-    ./kadai3.out
-
-clean :
-    rm kadai3.out
-```
-## 出力
-![](/images/3.png)
